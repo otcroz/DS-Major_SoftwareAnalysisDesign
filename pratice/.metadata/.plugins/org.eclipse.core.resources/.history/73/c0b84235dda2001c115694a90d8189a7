@@ -1,0 +1,24 @@
+package ch01.BookShelf;
+
+public class BookShelfIteratorBackword implements Iterator {
+	BookShelf bookshelf;
+	int index;
+	
+	BookShelfIteratorBackword(BookShelf bookshelf){
+		this.bookshelf =bookshelf;
+		this.index = 0;
+	}
+	
+	@Override
+	public boolean hasNext() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public Object next() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

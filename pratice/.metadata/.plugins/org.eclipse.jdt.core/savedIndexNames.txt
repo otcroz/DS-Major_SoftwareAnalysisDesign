@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+C:\1Duksung_ComputerEngineering\2022_1_CE\소프트웨어분석설계\pratice\.metadata\.plugins\org.eclipse.jdt.core
+1642175237.index
+3106435371.index

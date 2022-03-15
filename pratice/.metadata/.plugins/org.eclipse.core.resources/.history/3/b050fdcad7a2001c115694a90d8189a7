@@ -1,0 +1,16 @@
+package BookShelf;
+
+public class BookShelf {
+	Book[] books;
+	int last;
+	
+	public BookShelf(int maxsize) {
+		books = new Book[maxsize];
+		last = 0;
+	}
+	
+	public void appendBook(Book book){
+		books[last] = book;
+		last++;
+	}
+}

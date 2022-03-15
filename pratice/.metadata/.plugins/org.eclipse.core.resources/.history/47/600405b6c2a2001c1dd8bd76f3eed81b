@@ -1,0 +1,10 @@
+package study.ch01;
+
+public class LearningTogetherIterator {
+	Student students[];
+	int last;
+	
+	public LearningTogetherIterator(int maxsize) {
+		students = new Student[maxsize];
+	}
+}
