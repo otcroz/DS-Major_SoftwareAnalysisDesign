@@ -1,0 +1,19 @@
+package study.ch02.pratice1;
+
+public class PrintInfoForm {
+	private String university;
+	private String studentID;
+	private String name;
+	
+	public void squareBrackets() {
+		System.out.println(" [" + university + ", " + studentID + ", " + name  + "]");
+	}
+	
+	public void brace() {
+		System.out.println(" [" + university + ", " + studentID + ", " + name  + "]");
+	}
+	
+	public void parentheses() {
+		System.out.println(" [" + university + ", " + studentID + ", " + name  + "]");
+	}
+}

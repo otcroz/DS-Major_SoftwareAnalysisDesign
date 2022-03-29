@@ -1,0 +1,21 @@
+package study.ch04.chocolate;
+
+import study.ch04.framework.Product;
+import study.ch04.framework.Store;
+
+public class ChocolateStore extends Store {
+
+	private String chocolateName;
+	private Vector chocolates = new Vector();
+	
+	protected void createProduct(Product ) {
+		
+	}
+	
+	@Override
+	protected void packingProduct(Product product) {
+		System.out.println(chocolateName +"을 포장합니다.");
+		
+	}
+
+}

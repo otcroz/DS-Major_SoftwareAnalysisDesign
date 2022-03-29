@@ -1,0 +1,23 @@
+package study.ch03.pratice;
+
+public class SoftwareAnalysisDesign extends StudyLecture {
+
+	@Override
+	void watchingLecture() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	void reviewOfStudy() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	void assignments() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

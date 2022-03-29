@@ -1,0 +1,32 @@
+package study.ch04.pratice;
+
+import java.util.Iterator;
+
+import study.ch04.cookie.Cookie;
+import study.ch04.cookie.CookieStore;
+import study.ch04.framework.Product;
+import study.ch04.framework.Store;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// 1. CookieStore
+		Store store_Cookie = new CookieStore();
+		
+		//Store의 create를 통해 쿠키를 만듦(만들고 판매)
+		Product cookie1 = store_Cookie.create("초콜릿 쿠키");
+		Product cookie2 = store_Cookie.create("버터 쿠키");
+		
+		//쿠키를 판매함
+		cookie1.sale();
+		cookie2.sale();
+		
+		//쿠키 이름 목록 출력
+		Iterator it = ((CookieStore)store_Cookie).getCookies().iterator(); // 벡터를 얻어옴
+		while(it.hasNext())
+			System.out.println(it.next());
+		
+		// 2. ChocolateStore
+	}
+
+}

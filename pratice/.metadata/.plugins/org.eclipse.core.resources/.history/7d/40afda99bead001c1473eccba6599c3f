@@ -1,0 +1,24 @@
+package study.ch04.cookie;
+
+import study.ch04.framework.Product;
+
+public class Cookie extends Product{
+
+	private String cookieName;
+	
+	Cookie(String cookieName){
+		System.out.println(cookieName + "을 만듭니다.");
+		this.cookieName = cookieName;
+	}
+	
+	@Override
+	public void sale() {
+		System.out.println(cookieName +"을 판매합니다");
+		
+	}
+	
+	public String getChocolateName() {
+		return cookieName;
+	}
+
+}

@@ -1,0 +1,14 @@
+package study.ch04.framework;
+
+public abstract class Store {
+	public final void create() {
+		
+	} // Template Method
+	
+	protected Product createProduct(String name) { // Product 积己
+		// 抗寇 贸府
+		throw new StoreException();
+	}
+	
+	protected abstract void packingProduct();
+}

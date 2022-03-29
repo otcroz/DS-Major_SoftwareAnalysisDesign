@@ -1,5 +1,0 @@
-package study_1;
-
-interface Aggregate {
-
-}

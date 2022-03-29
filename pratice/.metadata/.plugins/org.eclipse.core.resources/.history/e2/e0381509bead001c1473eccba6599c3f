@@ -1,0 +1,16 @@
+package study.ch04.pratice;
+
+import study.ch04.cookie.CookieStore;
+import study.ch04.framework.Store;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Store cookie1 = new CookieStore();
+		
+		cookie1.create("ÃÊÄİ¸´ ÄíÅ°");
+		cookie1.create("¹öÅÍ ÄíÅ°");
+
+	}
+
+}

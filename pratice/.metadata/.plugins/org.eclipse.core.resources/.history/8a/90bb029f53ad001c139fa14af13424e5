@@ -1,0 +1,23 @@
+package study.ch02.pratice1;
+
+public class MyForm implements PrintMyInfo {
+
+	@Override
+	public void printModeA() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void printModeB() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void printModeC() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

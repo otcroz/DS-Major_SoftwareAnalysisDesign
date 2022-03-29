@@ -1,0 +1,9 @@
+package study.ch02.pratice1;
+
+public interface PrintMyInfo {
+	public abstract void printModeA();
+	
+	public abstract void printModeB();
+	
+	public abstract void printModeC();
+}

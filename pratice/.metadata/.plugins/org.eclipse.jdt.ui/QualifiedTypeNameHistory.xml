@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="study.ch04.cookie.CookieStore"/>
+    <fullyQualifiedTypeName name="study.ch04.cookie.Cookie"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="study.ch04.framework.Product"/>
+    <fullyQualifiedTypeName name="study.ch04.framework.Store"/>
     <fullyQualifiedTypeName name="java.util.Vector"/>
+    <fullyQualifiedTypeName name="study.ch04.chocolate.ChocolateStore"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,13 @@
+package study.ch04.framework;
+
+public abstract class Store {
+	public final void create() {
+		
+	} // Template Method
+	
+	protected Product createProduct(String name) { // Product »ý¼º
+		
+	}
+	
+	protected abstract void packingProduct();
+}

@@ -1,0 +1,14 @@
+package study.ch05.pratice;
+
+public class YooSooYeon2 {
+	private static YooSooYeon2 yoosooyeon = null;
+	
+	private YooSooYeon2(){ 
+		
+	}
+	
+	public static YooSooYeon1 getInstance() {
+		return yoosooyeon;
+	}
+	
+}

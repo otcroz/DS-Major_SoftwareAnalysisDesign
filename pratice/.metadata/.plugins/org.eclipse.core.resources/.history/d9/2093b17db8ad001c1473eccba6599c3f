@@ -1,0 +1,19 @@
+package study.ch04.cookie;
+
+import study.ch04.framework.Product;
+import study.ch04.framework.Store;
+
+public class CookieStore extends Store {
+	String name;
+	
+	protected Product createProduct(String name) {
+		return new Cookie();
+	}
+	
+	@Override
+	protected void packingProduct() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

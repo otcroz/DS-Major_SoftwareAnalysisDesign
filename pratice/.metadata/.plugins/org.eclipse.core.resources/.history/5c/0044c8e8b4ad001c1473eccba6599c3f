@@ -1,0 +1,11 @@
+package study.ch03.pratice;
+
+public abstract class StudyLecture {
+	abstract void watchingLecture();
+	
+	abstract void reviewOfStudy();
+	
+	abstract void assignments();
+	
+	final void display();
+}

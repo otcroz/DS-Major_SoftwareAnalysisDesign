@@ -1,0 +1,15 @@
+package study.ch04.chocolate;
+
+import study.ch04.framework.Product;
+
+public class Chocolate extends Product {
+
+	private String name;
+	
+	@Override
+	public void sale() {
+		
+		
+	}
+
+}

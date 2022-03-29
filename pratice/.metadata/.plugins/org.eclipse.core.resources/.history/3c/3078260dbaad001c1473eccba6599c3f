@@ -1,0 +1,25 @@
+package study.ch04.cookie;
+
+import java.util.Vector;
+
+import study.ch04.framework.Product;
+import study.ch04.framework.Store;
+
+public class CookieStore extends Store {
+	private Vector cookies = new Vector();
+	
+	protected Product createProduct(String name) {
+		return new Cookie(name);
+	}
+	
+	@Override
+	protected void packingProduct() {
+		
+		
+	}
+	
+	public Vector cookies() {
+		
+	}
+
+}
