@@ -1,0 +1,21 @@
+package ch04.factory.instance;
+
+import ch04.factory.framework.Factory;
+import ch04.factory.framework.Product;
+
+public class IdCardFactory extends Factory {
+
+	
+	
+	@Override
+	protected Product createProduct(String name) {
+		return new Product(name);
+	}
+
+	@Override
+	protected void registerProduct(Product p) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

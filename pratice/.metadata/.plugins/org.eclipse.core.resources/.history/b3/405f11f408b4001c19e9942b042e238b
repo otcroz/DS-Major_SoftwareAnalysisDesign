@@ -1,0 +1,17 @@
+package ch04.factory.framework;
+
+abstract public class Factory {
+	final public void  create(String name){ // Template Method ∆–≈œ
+		Product p = createProduct(name);
+		registerProduct(p);
+	}
+	
+	public Product createProduct(String string) {
+		
+	}
+
+	protected abstract void registerProduct(Product p);
+
+	
+	
+}

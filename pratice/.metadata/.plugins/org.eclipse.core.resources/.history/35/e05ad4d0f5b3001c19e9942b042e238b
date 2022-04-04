@@ -1,0 +1,7 @@
+package ch04.factory.framework;
+
+public class Factory {
+	public void create(){
+		
+	}
+}

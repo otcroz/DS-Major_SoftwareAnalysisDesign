@@ -1,0 +1,29 @@
+package ch04.factory.instance;
+
+import java.util.Vector;
+
+import ch04.factory.framework.Factory;
+import ch04.factory.framework.Product;
+
+public class IdCardFactory extends Factory {
+
+	Vector owners = new Vector();
+	
+	@Override
+	protected Product createProduct(String name) {
+		return new IDCard(name);
+	}
+
+	@Override
+	protected void registerProduct(Product p) {
+		owners.add(p); // 배열에 등록
+		
+	}
+	
+	public Vector getOwners() {
+		return owners;
+	}
+	
+	
+
+}

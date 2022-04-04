@@ -1,0 +1,28 @@
+package ch03.pratice.template;
+
+public class PrintNo1 extends AbstractDisplay {
+
+	public PrintNo1() {
+		
+	}
+
+	@Override
+	protected void start() {
+	System.out.println("Ω√¿€!");
+		
+	}
+
+	@Override
+	protected void content() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	protected void end() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+
+}

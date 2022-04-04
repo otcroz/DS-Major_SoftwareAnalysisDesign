@@ -1,0 +1,5 @@
+package ch04.factory.instance;
+
+public class IDCard {
+
+}

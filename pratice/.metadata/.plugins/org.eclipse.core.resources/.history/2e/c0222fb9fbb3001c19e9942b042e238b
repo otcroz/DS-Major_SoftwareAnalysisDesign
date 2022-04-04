@@ -1,0 +1,10 @@
+package ch04.factory.pratice;
+
+public class Main {
+	public static void main(String[] args) {
+		// 공장 세우기
+		Factory = new IDCardFactory();
+				
+		// 공장을 이용하여 제품을 생산
+	}
+}

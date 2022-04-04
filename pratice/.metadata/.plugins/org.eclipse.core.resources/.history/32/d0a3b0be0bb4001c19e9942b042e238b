@@ -1,0 +1,9 @@
+package ch05.pratice.singleton;
+
+public class Singleton {
+	private Singleton singleton = new Singleton();
+	
+	private Singleton() {
+		
+	}
+}

@@ -5,24 +5,24 @@ public class PrintNo1 extends AbstractDisplay {
 	public PrintNo1() {
 		
 	}
-	
-	
+
 	@Override
-	void start() {
+	protected void start() {
 		System.out.println("시작!");
 		
 	}
 
 	@Override
-	void content() {
-		System.out.println("내용~!");
+	protected void content() {
+		System.out.println("진행중~");
 		
 	}
 
 	@Override
-	void end() {
+	protected void end() {
 		System.out.println("끝!");
 		
 	}
+	
 
 }

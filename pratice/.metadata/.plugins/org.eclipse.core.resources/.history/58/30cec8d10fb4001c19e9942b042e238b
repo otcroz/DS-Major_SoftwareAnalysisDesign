@@ -1,0 +1,14 @@
+package ch05.pratice.singleton;
+
+public class Main2 extends Thread {
+	public static void main(String[] args) {
+		Main2("À¯¼ö¿¬1").start();
+		
+		System.out.println(obj1);
+		System.out.println(obj2);
+		
+		public Main2(String name){
+			super(name);
+		}
+	}
+}

@@ -1,0 +1,15 @@
+package ch04.factory.framework;
+
+abstract public class Factory {
+	final public void  create(){
+		Product p = createProduct();
+		registerProduct(p);
+	}
+	
+	protected abstract Product createProduct();
+
+	protected abstract void registerProduct(Product p);
+
+	
+	
+}

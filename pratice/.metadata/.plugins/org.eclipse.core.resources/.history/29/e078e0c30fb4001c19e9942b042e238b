@@ -1,0 +1,14 @@
+package ch05.pratice.singleton;
+
+public class Main2 extends Thread {
+	public static void main(String[] args) {
+		Singleton2 obj1 = Singleton2.getInstance();
+		Singleton2 obj2 = Singleton2.getInstance();
+		
+		if(obj1 == obj2) System.out.println("µÎ °´Ã¼´Â °°½À´Ï´Ù.");
+		else System.out.println("µÎ °´Ã¼´Â ´Ù¸¨´Ï´Ù.");
+		
+		System.out.println(obj1);
+		System.out.println(obj2);
+	}
+}

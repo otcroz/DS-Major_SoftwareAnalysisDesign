@@ -1,0 +1,25 @@
+package ch05.pratice.singleton;
+
+public class Main2 extends Thread {
+	public static void main(String[] args) {
+		new Main2("유수연1").start();
+		new Main2("유수연2").start();
+		new Main2("유수연3").start();
+		
+		
+		
+		System.out.println(obj1);
+		System.out.println(obj2);
+		
+
+	}
+	
+	public 패ㅑㅇ run() {
+		Singleton2 singleton = Singleton2.getInstance();
+		System.out.pritnln( singleton + "입니다.");
+	}
+	
+	public Main2(String name){
+		super(name);
+	}
+}

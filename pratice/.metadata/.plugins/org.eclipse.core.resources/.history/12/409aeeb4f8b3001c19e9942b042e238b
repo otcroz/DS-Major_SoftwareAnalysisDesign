@@ -1,0 +1,19 @@
+package ch04.factory.instance;
+
+import ch04.factory.framework.Product;
+
+public class IDCard extends Product {
+
+	String owner;
+	
+	@Override
+	protected void use() {
+		System.out.println("IDCard를 사용합니다.");
+		
+	}
+	
+	public String getOwner() {
+		return owner;
+	}
+	
+}

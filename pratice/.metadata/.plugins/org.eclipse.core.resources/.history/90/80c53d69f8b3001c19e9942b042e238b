@@ -1,0 +1,13 @@
+package ch04.factory.instance;
+
+import ch04.factory.framework.Product;
+
+public class IDCard extends Product {
+
+	@Override
+	protected void use() {
+		System.out.println("IDCard를 사용합니다.");
+		
+	}
+	
+}
