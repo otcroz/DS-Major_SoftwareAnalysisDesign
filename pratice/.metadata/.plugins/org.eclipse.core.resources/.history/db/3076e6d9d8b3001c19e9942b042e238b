@@ -1,0 +1,5 @@
+package ch02.pratice.adapter;
+
+public class PrintBanner1 implements Print {
+
+}

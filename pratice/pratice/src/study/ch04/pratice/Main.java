@@ -24,8 +24,11 @@ public class Main {
 		
 		//쿠키 이름 목록 출력
 		Iterator it = ((CookieStore)store).getCookies().iterator(); // 벡터를 얻어옴
-		while(it.hasNext())
+		while(it.hasNext()) {
 			System.out.println(it.next());
+			Cookie cookie = (Cookie)it.next(); // 캐스팅이 필요한 이유?? it이 반환하는 타입은 Object
+			
+		}
 		
 		System.out.println();
 		

@@ -1,0 +1,7 @@
+package ch01.pratice.iterator;
+
+public class main {
+	public main() {
+		BookShelf bookshelf = new BookShelf();
+	}
+}

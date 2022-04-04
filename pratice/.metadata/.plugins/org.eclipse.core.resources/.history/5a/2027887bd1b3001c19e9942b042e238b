@@ -1,0 +1,15 @@
+package ch01.pratice.iterator;
+
+import java.util.Vector;
+
+public class BookShelf implements Aggregate{
+
+	private Vector bookshelf = new Vector();
+	
+	@Override
+	public Iterator iterator() {
+		return new BookShelfIterator();
+		
+	}
+
+}

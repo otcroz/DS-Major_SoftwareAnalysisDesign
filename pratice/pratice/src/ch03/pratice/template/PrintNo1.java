@@ -1,0 +1,28 @@
+package ch03.pratice.template;
+
+public class PrintNo1 extends AbstractDisplay {
+
+	public PrintNo1() {
+		
+	}
+	
+	
+	@Override
+	void start() {
+		System.out.println("시작!");
+		
+	}
+
+	@Override
+	void content() {
+		System.out.println("내용~!");
+		
+	}
+
+	@Override
+	void end() {
+		System.out.println("끝!");
+		
+	}
+
+}

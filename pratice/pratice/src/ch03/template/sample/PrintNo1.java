@@ -22,5 +22,5 @@ public class PrintNo1 extends AbstractDisplay {
 	public void end() {
 		System.out.println("End!");
 	}
-
+	
 }

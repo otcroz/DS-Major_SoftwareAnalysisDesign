@@ -1,0 +1,19 @@
+package ch01.pratice.iterator;
+
+public class BackBookShelfIterator implements Iterator {
+
+	BookShelf bookshelf;
+	
+	@Override
+	public boolean hasNext() { // 0일 때
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public Object next() { // back으로 출력하도록
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

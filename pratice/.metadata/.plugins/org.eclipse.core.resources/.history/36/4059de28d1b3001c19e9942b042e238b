@@ -1,0 +1,10 @@
+package ch01.pratice.iterator;
+
+public class bookShelf implements Aggregate{
+
+	@Override
+	public Iterator iterator() {
+		new b
+	}
+
+}

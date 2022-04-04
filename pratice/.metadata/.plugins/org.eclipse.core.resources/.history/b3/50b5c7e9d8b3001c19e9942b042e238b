@@ -1,0 +1,17 @@
+package ch02.pratice.adapter;
+
+public class PrintBanner extends Banner implements Print {
+
+	@Override
+	public void printWeak() {
+		
+
+	}
+
+	@Override
+	public void printStrong() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

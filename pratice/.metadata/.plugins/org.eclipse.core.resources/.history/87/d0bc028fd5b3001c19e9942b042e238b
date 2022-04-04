@@ -1,0 +1,30 @@
+package ch01.pratice.iterator;
+
+import java.util.Vector;
+
+public class BookShelf implements Aggregate{
+
+	private Vector<Book> bookshelf = new Vector<Book>();
+	
+	public BookShelf(){
+		
+	}
+	
+	@Override
+	public Iterator iterator() {
+		return new BookShelfIterator(this);
+	}
+	
+	public void appendBook(Book book) {
+		bookshelf.add(book);
+	}
+	
+	public Book getBook(int n) { // Object로 선언한 이유: Vector.get() 반환형 타입이 Object
+		return bookshelf.get(n); // 해당하는 객체 반환
+	}
+	
+	public int getLength() {
+		return bookshelf.size();
+	}
+
+}

@@ -1,0 +1,9 @@
+package ch02.pratice.adapter;
+
+public class Main {
+	public static void main(String[] args) {
+		Print p = new PrintBanner("À¯¼ö¿¬");
+		p.printStrong();
+		p.printWeak();
+	}
+}

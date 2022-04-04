@@ -1,0 +1,7 @@
+package ch01.pratice.iterator;
+
+interface Iterator {
+	abstract boolean hasNext();
+	abstract Object next();
+	
+}
